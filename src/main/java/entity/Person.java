@@ -11,6 +11,15 @@ public class Person {
     private String nickname;
     private String secretPassword;
     private Long inscriptionCode;
+    private Address address;
+
+    public Address getAddress() {
+        return address;
+    }
+
+    public void setAddress(Address address) {
+        this.address = address;
+    }
 
     public Long getInscriptionCode() {
         return inscriptionCode;

@@ -18,6 +18,5 @@ public class Example {
         List<Person> listFemale = Fixture.from(Person.class).gimme(6, "FEMALE");
         List<Person> listMix = Fixture.from(Person.class).gimme(2, "FEMALE", "MALE");
 
-        System.out.println("Happy");
     }
 }
